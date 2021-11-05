@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;     
+    margin-top: 1rem;
+    padding: 0.5rem;
+    flex: 1 0 30%;
+}
+
+.card img{
+    height: 220px;
+    width: 220px;
+    margin-top: 0.5rem;
+}
+
+
+.card h3{
+    margin-top: 0.8rem;
+}
+.card .articleInfo{
+    color: rgb(107, 102, 102);
+    padding: 7px 0px;
+}
+.card a{
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(30, 52, 247);
+    padding: 0.25rem;
+    width: 5rem;
+}
+
+@media (max-width: 540px){
+    .card{
+        flex: 0 0 0%;
+    }
+    .card img{
+        height: 200px;
+        width: 200px;
+        
+    }
+}
+
+@media (max-width: 440px){
+    .card img{
+        height: 180px;
+        width: 180px;
+        
+    }
+}

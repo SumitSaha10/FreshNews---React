@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+  
+/*
+Navigation 
+*/
+.navigation{
+    display: flex;
+    
+    align-items: center;
+    width: 100vw;
+    background: rgb(17, 16, 16);
+    color: white;
+    padding: 1rem;
+    
+    font-family: sans-serif;
+    
+}
+.navigation .logo-bars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation .logo-bars a{
+    text-decoration: none;
+}
+h2{
+    color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+   text-decoration: none;
+   padding: 0.7rem;
+   color: white;
+   opacity: 1;
+}
+
+ul li a:hover{
+    color: rgba(240, 229, 229, 0.918);
+   
+ }
+
+
+
+/*
+Media Query
+*/
